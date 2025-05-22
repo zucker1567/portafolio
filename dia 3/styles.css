@@ -1,0 +1,23 @@
+/* estilos globales " * " */
+ *{background-color: rgb(195, 185, 195);
+    align-items: center;
+    margin: 0px;
+    padding: px;
+} 
+body {
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.container { 
+  height: 5%;
+
+}
+ 
+
+  
+ 

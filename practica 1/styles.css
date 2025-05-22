@@ -1,0 +1,22 @@
+/* estilos generales :) */
+head {
+    color: rgb(38, 0, 255); }
+body { 
+    font-size: 17px;
+    
+    background-color: aqua;
+    
+/*  */
+}
+h1 { 
+    color: rgb(140, 0, 255);
+    
+}
+h2 {color: blue;
+}
+
+img {  
+    height: 300px
+    ;
+    width: 399px;
+}

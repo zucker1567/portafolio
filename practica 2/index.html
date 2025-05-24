@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Deling nexus</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body> 
     
-    <main class="container">
+    <main >
+
          <div>
-            <img src="./dn-logo.0468c98.png" alt="esta es una imagen de diseño nexus dueling">
+            <img src="./dn-logo.0468c98.png" class="imagen" alt="esta es una imagen de diseño nexus dueling">
         </div>
         
-        <h2>account login</h2>
-        <form action="/login.php">
-            <input type="email" class="email-input" placeholder="email">
-            <input type="password" class="password-input" placeholder="password">
-            <input type="checkbox" class="logged" placeholder="Stay-logged-in">
+        <h1>ACCOUNT LOGIN</h1>  
+
+        <form action="/login.php" class="formu">
+            
+            <div class="contenedor">
+                <input type="email" class="email-input" placeholder="email">
+                <input type="password" class="password-input" placeholder="password" >
+            </div>
+
+            <div class="subdivi">
+                <label class="checkboxcon">
+                    <input type="checkbox" placeholder="Stay-logged-in">stay logged in
+                </label>
+                <p class="forgot-password"><a href="https://duelingnexus.com/recover">Forgot password?</a></p>
+            </div>
+
             <label for="from">
-            <button type="button" class="button" >Register</button>
-            <button type="button" class="button">Login</button>
+                <button type="button" class="button" >Register</button>
+                <button type="button" class="button">Login</button>
             </label>
         </form>
         
-    </main>
-
-
-    <footer>
-        <div class="redes-sociales"> 
+            <div class="redes-sociales"> 
             <h3>join us on</h3>
             
             <ul>
@@ -39,11 +47,15 @@
                 <li><a href="https://www.duelingbook.com/" target="_blank"><img src="./icon_dueling.jpg" alt=""></a></li>
             </ul>
               
-        </div>
+            </div>
         <div class="derechos-de-autores">
             <a href="https://duelingnexus.com/privacypolicy" target="_blank" >politic policy</a>
             <a href="https://duelingnexus.com/blog/about-us/" target="_blank" >about us</a>
         </div>
-    </footer>
+
+    </main>
+
+
+   
 </body>
 </html>

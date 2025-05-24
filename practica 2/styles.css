@@ -1,118 +1,124 @@
-*{
-    background-color: rgb(10, 0, 20)
-    ;  
-}
 
 body {
-  height: 100vh;
+    background-image: url(./dueling_nexus_background_by_soaringkira_deen81x-fullview.jpg);
+    background-size: cover;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.container {
-    padding: 20px;
-}
-.email-input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 1px;
-    margin-bottom: 5%;
-    background-color: rgb(15, 0, 20);/* color para el campo de email */
-    color: white;
+  
 }
 
-.password-input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 1px;
-    background-color: rgb(15, 0, 20);
-    color: rgb(224, 12, 12);
-}
-
-/* .password-input:focus {
-    color: blueviolet;
-}    no me funciono*/
-
-
-img { 
+.parte0 {
+   
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 99%; 
+    max-width: 390px
 }
-.logged {
-    color: rgb(33, 84, 129);
-
-}
-label {
-    display: flex;
-}
-    
-.button {
-    background-color: aliceblue;   
-}
-
-.button {
-    background-color: aliceblue;   
- }
-
-*{
-    background-color: rgb(10, 0, 20)
-    ;  
-}
-
-body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center 
-}
-.email-input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 1px;
-    background-color: rgb(15, 0, 20);/* color para el campo de email */
-    color: white;
-}
-
-.password-input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 1px;
-    background-color: rgb(15, 0, 20);
-    color: white;
-}
-
-img { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-    
-.button {
-    background-color: aliceblue;   
-}
-
-.button {
-    background-color: aliceblue;   
- }
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(10, 0, 20);
-    text-align: center;
-    padding: 10px;
-}
-
-
  
 
-.redes-sociales ul {
+h1 {
+    color: white;
+}
+
+.formu {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.email-input {
+    width: 99%;
+    padding: 10px;
+    border-radius: 1%;
+    margin-bottom: 3%;
+    background-color: rgb(15, 0, 20);
+    color: white;
+}
+
+.password-input {
+    width: 99%;
+    padding: 10px;
+    border-radius: 1px;
+    background-color: rgb(15, 0, 20);
+    color: rgb(255, 255, 255);
+}
+
+.subdivi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 390px;
+}
+
+.checkboxcon {
+    color: white;
+
+}
+
+
+
+.img { 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    gap: 5px;
+    
+}
+    
+.button {
+    background-color:aliceblue;   
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.parte3 {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.redes-sociales ul {
+  
+    display: flex;
+    position: absolute;
+    gap: 50px;
     flex-direction: row; /* Asegura que los íconos se alineen en fila */
     justify-content: center; /* Centra los elementos en la línea */
     list-style: none; /* Elimina los puntos de la lista */
     padding: 0;
     margin: 0;
-    
+ }
+
+ h3 {
+    color: white;
+ }
+ 
+.derechos-de-autores {
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white; 
 }

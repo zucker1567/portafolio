@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+#cabezera {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 50px;
+ }
+
+ a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .lista1 {
+    background-color: rgb(87, 83, 83);
+    color: white;
+    display: flex;
+    padding: 5px;
+    font-size: 20px;
+ }
+
+ .parte2 {
+    background-color: rgba(136, 35, 35, 0.336);
+    display: flex;
+    flex-direction: column;
+    padding: 95px;
+    position: static;
+    margin: 0px;
+    padding-top: 90px;
+    height: 400px;
+ }
+
+ button {
+    background-color: green;
+ }
+  
+ img {
+    width: 200px;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    margin-top: 65px;
+    
+ }
+
+
+ footer { 
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+ }
+ 
+ .f1 {
+    background-color: rgb(241, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: static;
+    padding: 95px;
+    
+}
+
+.f2 {
+    background-color: rgb(217, 235, 235);
+}
+
+
+ #pie {
+    background-color: rgb(87, 83, 83);
+    color: white;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    padding: 30px;
+    font-size: 20px;
+
+ }
+
